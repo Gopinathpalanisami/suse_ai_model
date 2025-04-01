@@ -289,3 +289,18 @@ LogisticRegression(C=100, max_iter=150)
 
  LogisticRegression?
 LogisticRegression(C=100, max_iter=150)
+
+>>>>
+
+import pandas as pd
+import matplotlib.pyplot as plt 
+%matplotlib inline
+from sklearn.datasets import load_iris
+iris = load_iris()
+iris.data
+from sklearn.tree import DecisionTreeClassifier
+from sklearn import tree
+classifier = DecisionTreeClassifier()
+classifier.fit(iris.data, iris.target)
+plt.figure(figsize=(15,10))
+tree.plot_tree(classifier, filled=True)
