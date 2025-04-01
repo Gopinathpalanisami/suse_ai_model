@@ -291,7 +291,7 @@ LogisticRegression(C=100, max_iter=150)
 LogisticRegression(C=100, max_iter=150)
 
 >>>>
-
+DecisionTree ::::::::::::::::::::::
 import pandas as pd
 import matplotlib.pyplot as plt 
 %matplotlib inline
